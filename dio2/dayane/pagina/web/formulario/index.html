@@ -7,13 +7,28 @@
     <title>Formulário de Cadastro</title>
 </head>
 <body>
-    <form name="signup" onsubmit="alert('Formulário enviado');" method="POST" action="#">
+    <!--<form name="signup" onsubmit="alert('Formulário enviado');" method="POST" action="#">
         <p><strong>Este é o formulário de cadastro</strong></p>
         Nome: <input type="text" name="nome" /><br>
         Idade: <input type="number" name="age" /><br>
         Senha: <input type="password" name="password" /><br>
 
         <button type="submit">Enviar</button>
+    </form>-->
+    <form>
+       <label>Text: </label><input type="text" /><br>
+       <label>Number: </label><input type="number" min="0" max="99"/><br>
+       <label>Range: </label><input type="range" min="0" max="99" value="90"/><br>
+       <label>Color: </label><input type="color" /><br>
+       <label>E-mail: </label><input type="email" /><br>
+       <label>URL: </label><input type="url" /><br>
+       <label>Date: </label><input type="date" /><br>
+       <label>Checkbox: </label><input type="checkbox" /> <label>Checkbox: </label><input type="checkbox" /><br>
+       <label>Radio: </label><input type="radio" name="aceita"/> <label>Radio: </label><input type="radio" name="aceita"/><br>
+       <label>Hidden: </label><input type="hidden" /><br>
+       <label>File: </label><input type="file" /><br>
+       <label>Button: </label><input type="button" value="Enviar"/><br>
+       <button type="submit">Enviar</button><br>
     </form>
     
 </body>
